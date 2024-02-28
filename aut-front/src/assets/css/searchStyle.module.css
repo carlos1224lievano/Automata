@@ -14,15 +14,15 @@
 }
 
 .tableStyle th {
-    background-color: #f2f2f2;
-    border-bottom: 2px solid #ccc;
-    color: #666;
+    background-color: #0448d0;
+    border-bottom: 2px solid #0047f8;
+    color: #efebeb;
     font-size: 1.2em;
     padding: 0.5em;
 }
 
 .tableStyle td {
-    border: 1px solid #ccc;
+    border: 1px solid #0047f8;
     padding: 0.5em;
 }
 
@@ -49,7 +49,7 @@
     display: grid;
     border: 4.5px solid #0000;
     border-radius: 50%;
-    border-color: #dbdcef #0000;
+    border-color: #0047f8 #0000;
     animation: spinner-e04l1k 1s infinite linear;
   }
   

@@ -78,7 +78,7 @@ function LoginUserForm() {
         setGeneralError(data.message || "Error al registrarse. Intente de nuevo.");
       } else {
         localStorage.setItem('token', data.token);
-        navigate('/home');
+        navigate('/search-email');
       }
     } catch (error) {
       setGeneralError("Error al conectarse al servidor. Por favor, intente más tarde.");
@@ -90,8 +90,8 @@ function LoginUserForm() {
   return(
     <div className={styles.container}>
       <form className={styles.form} onSubmit={handleSubmit}>
-      <span className={styles.title}>Login</span>
-      <label className={styles.label}>Email</label>
+      <span className={styles.title}>INICIO DE SESION</span>
+      <label className={styles.label}>Correo Electronico</label>
       <input 
       className={styles.input}
         type="email" 

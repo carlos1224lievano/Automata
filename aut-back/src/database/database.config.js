@@ -3,7 +3,7 @@ import { Sequelize } from 'sequelize';
 
 export const sequelize = new Sequelize('test', 'root', 'password', {
     host: 'localhost',
-    port: 5433,
+    port: 5432,
     dialect: 'postgres',
     logging: false,
 });
